@@ -19,6 +19,22 @@ En el mundo real, cada objeto tiene ciertas características que , en POO, son *
 
 A esa forma de asimilar el mundo real con un escenario de programación se le conoce como **PARADIGMA ORIENTADO A OBJETOS**
 
+## Principios del paradigma orientado a objetos
+
+Se basa en 7 conceptos para dar estructura al programa:
+
+* Herencia 
+* Modularidad
+* Abstracción
+* Encapsulamiento
+* Polimorfismo
+* Ocultación
+* Reutilización
+
+## Ventajas
+
+Con la POO obtenemos programas modulares, código fuente fácil de mantener, relación con el mundo real, fácil de leer.
+
 #### Propiedad de Carlos Giles
 
 <a href="https://twitter.com/charlygvc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="charlygvc" height="30" width="40" /></a> [@CharlyGVC](https://twitter.com/CharlyGVC)
