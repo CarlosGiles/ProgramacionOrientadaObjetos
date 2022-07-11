@@ -1,3 +1,5 @@
+![obj](https://user-images.githubusercontent.com/92232878/178316262-77803885-ef92-41da-bda6-47aa34800765.png)
+
 # POO - Paradigma Orientado a objetos
 Surge para solucionar problemas que planteaban otros paradigmas. Tiene la finalidad de elaborar módulos y programas más fáciles de escribir, mantener y reutilizar.
 
