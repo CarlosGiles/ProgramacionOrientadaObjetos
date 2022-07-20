@@ -75,9 +75,61 @@ Consiste en tener más de una clase base y heredar los atributos y métodos de c
 
 **JAVA NO ACEPTA HERENCIA MULTIPLE** para simular este tipo de herencia, en **Java** tenermos las **Interfaces**.
 
-## Interfaz
+## Interfaz (Override)
 
 ![image](https://user-images.githubusercontent.com/92232878/179857532-64e20084-fcb8-434c-9de2-9c47eb3554dd.png)
 
 Es una especie de plantilla en la cual se definen un conjunto de métodos sin ninguna lógica y variables que contienen valores estáticos, sin la posibilidad 
 de ser modificados durante la ejecución del programa, es muy parecido a un método abstracto.
+
+Ejemplo de interfaces:
+
+* El siguiente fragmento de código muestra dos **interfaces**:
+
+![image](https://user-images.githubusercontent.com/92232878/179872782-ac9d4571-44ff-4074-a31c-fab79d59975b.png)
+
+* Ahora se crea una clase pública llamada **Police**, y como si fuera una clase que hereda de otras dos o más clases, utilizamos la palabra reservada **implements** seguida de la o las interfaces a sobrescribir/implementar (Override) separadas por coma (,):
+
+![image](https://user-images.githubusercontent.com/92232878/179873368-f07f6763-cdba-4152-8de0-02f5e802c3f0.png)
+
+![image](https://user-images.githubusercontent.com/92232878/179873404-22ea02af-08ed-49c8-bcde-70dee461d8ee.png)
+
+![image](https://user-images.githubusercontent.com/92232878/179873457-a42dddc2-948a-42b0-957e-e5388a4f4130.png)
+
+## Reutilización de clases
+
+En **Java** hay dos maneras de reutilizar código:
+
+* a) Por herencia: dentro de una clase base definimos métodos que hagan una tarea en particular y que estos sean reutilizados al ser llamados desde la clase heredada.
+* b) Por composición: es la creación de una clase que contiene los métodos que pueden ser utilizados desde cualquier parte del código y su forma de acceso es mediante la creación de una instancia.
+
+## Referenciar a objetos de una clase
+
+Es el acceso a las propiedades de la clase mediante la instancia de la clase creada.
+
+* Clase base:
+
+![image](https://user-images.githubusercontent.com/92232878/179875180-1fabf1a5-ffd2-4479-8f5d-5b2b1bb93cfb.png)
+
+* Clase heredada:
+
+![image](https://user-images.githubusercontent.com/92232878/179875223-4d482f94-e761-4339-a584-edcf3631bf71.png)
+
+## Redefinir métodos en clases derivadas (**Override**)
+
+Es necesario agregar la anotación **@Override** para evitar errores en la compilación del programa.
+
+* Clase base:
+
+![image](https://user-images.githubusercontent.com/92232878/179875731-6fa7324c-88db-4d58-8cb8-4108f8aaad62.png)
+
+* Clase heredada:
+
+![image](https://user-images.githubusercontent.com/92232878/179875872-b34f608e-0651-4de8-8dea-6f920dc1dfaa.png)
+
+#### Propiedad de Carlos Giles
+
+<a href="https://twitter.com/charlygvc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="charlygvc" height="30" width="40" /></a> [@CharlyGVC](https://twitter.com/CharlyGVC)
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/carlosgilesing/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/carlosgilesing/" height="30" width="40" /></a> [Carlos Giles](https://www.linkedin.com/in/carlosgilesing/)
+<a href="https://instagram.com/gilescharly" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="gilescharly" height="30" width="40" /></a> [gilescharly](https://www.instagram.com/gilescharly/)
+</p>
